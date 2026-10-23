@@ -1,0 +1,3 @@
+1. Compiler code ko pehly pora translate krta he and then run krta he vs interpreter run time p hi line by line translate krta he 
+2. compiler pora code 1 baar translate krta he and exectue jab sab thk ho koi error na ho even last m bhi vs interpreter line by line translate and run krta he or jahan error hota he wahan stop krta he
+  
