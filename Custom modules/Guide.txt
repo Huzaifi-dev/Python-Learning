@@ -1,0 +1,22 @@
+What is a Python Module?
+
+A Python module is simply a .py  file containing Python code—functions, variables, or classes—that you can reuse in other Python scripts by importing .
+
+
+
+What Are Submodules?
+
+When your module gets bigger and has many related parts, it’s a good idea to split it into smaller pieces called submodules. Each submodule is just a separate Python file inside a folder (which acts as the main module).
+
+For example, imagine you have a module called shapes that calculates areas of different shapes. Instead of putting all functions in one file, you can organize it like this:
+
+shapes/           # This is the main module folder
+    __init__.py   # Special file to mark this folder as a module
+    circle.py     # Submodule for circle-related functions
+    rectangle.py  # Submodule for rectangle-related functions
+Each .py file inside the folder is a submodule.
+
+What is __init__.py?
+
+The __init__.py file is a special file that tells Python: "Hey, this folder should be treated as a module."
+It can be empty, or it can contain code to initialize the module or import submodules to make them easier to access.
